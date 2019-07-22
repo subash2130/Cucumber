@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login TestMe App",
+        "description": "",
+        "id": "login;login-testme-app;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4521267509,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to Enter the URL of TestMe App",
+            "match": {
+              "location": "Test2.i_want_to_Enter_the_URL_of_TestMe_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244324350,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on SignIn button",
+            "match": {
+              "location": "Test2.i_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156128835,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter the \"lalitha\" and \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Test2.i_Enter_the_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 223667985,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Test2.i_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64758132,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Homepage of TestMe App is Displayed",
+            "match": {
+              "location": "Test2.homepage_of_TestMe_App_is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:Case2/Pro.feature",
+    "tags": []
+  }
+]
